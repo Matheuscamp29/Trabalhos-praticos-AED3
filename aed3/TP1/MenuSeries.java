@@ -117,6 +117,8 @@ public class MenuSeries {
         do {
             System.out.print("Ano de lançamento: ");
             anoLancamento = console.nextInt();
+            console.nextLine();  // Limpa o buffer após o nextInt()
+
         } while(anoLancamento <= 0);
         
         
